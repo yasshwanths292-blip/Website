@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 10;
+}
+
+main {
+	display:flex;
+	justify-content: center;
+}
+
+html {
+	height: 100%; 
+	width: 100%;
+	font-family: "Didact Gothic", sans-serif; 
+	background-color: #303030;
+	color: #ffffff;
+}
+
+.section-container {
+	min-height: 30px;
+	max-width: 1024px;
+	margin: auto;
+	padding: 0 24px;
+}
+
+.header {
+	min-height: 50px;
+	background-color: #f5d06b;
+	color: #ffffffz;
+}
+
+.header img{
+	width: 200px;
+	height: 50px;
+}
+
+.header:hover {
+	background-color: #bfa763;
+}
+
+.hero-section {
+	min-height: 400px;
+	background-image: url(https://static.vecteezy.com/system/resources/previews/027/101/671/large_2x/the-mandi-or-kabsa-tandoor-dish-is-a-rice-dish-with-meat-and-spices-it-is-seen-from-a-top-view-free-photo.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	font-size: 17px;
+	padding: 40px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero-section strong {
+	color: #ffffff;
+	font-size: 54px;
+}
+
+.hero-section p {
+max-width: 45%;
+text-align: left;
+margin-left: 40px;
+}
+
+.hero-section strong::first-line {
+	color: #f5d06b;
+}
+
+.content-introduction {
+	min-height: 30px;
+	background-color: #303030;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.content-introduction img {
+	width: 500px;
+	height: 500px;
+}
+
+.content {
+	min-height: 50px;
+	background-color: #303030;
+	background-size: cover;
+	background-position: center;
+	color: #f5d06b;
+	font-size: 17px;
+}
+
+.content h2 {
+	background-color: #f5d06b;
+	color:#000000;
+}
+
+.header-flex-wrapper {
+	height: 64px;
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+button {
+	padding: 0.6rem 1.2rem;
+	font-size: 1rem;
+	border-radius: 8px;
+	border: 0;
+	background: #ec3750;
+	color: white;
+	cursor: pointer;
+}
